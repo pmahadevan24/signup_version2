@@ -1,0 +1,59 @@
+.left_section {
+    background-color: white;
+    border-radius: 70px;
+    position: absolute;
+    top: 2cm;
+    left: 10cm;
+    width: 500px;
+    height: 500px;
+    /* position: absolute; */
+    margin: auto;
+}
+
+body {
+    background-color: blueviolet;
+
+}
+
+button {
+    width: 280px;
+}
+
+.btn-container {
+    padding-top: -1cm;
+    padding-left: 3cm;
+    display: flex;
+    flex-direction: column;
+    /* one below another */
+    gap: 7px;
+    /* EQUAL SPACE */
+
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 5cm;
+    padding-top: 1cm;
+}
+
+/* button {
+    width: 7cm;
+    height: 40px;
+} */
+
+.orContent {
+    padding-left: 6cm;
+}
+
+.enterEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-left: 3cm;
+}
+
+.emBtn {
+    background-color: rgb(11, 190, 65);
+}
